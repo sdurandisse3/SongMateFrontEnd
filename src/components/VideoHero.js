@@ -1,16 +1,8 @@
 import React from 'react';
 
 
-class VideoHero extends React.Component {
-    constructor (props) {
-        super(props);
-        this.state = {
-            videoURL: ''
-        }
-    }
+const VideoHero = () => {
 
-    render () {
-        const { videoURL } = this.state
         return (
             <div style={{
                 width: '1420px',
@@ -29,6 +21,5 @@ class VideoHero extends React.Component {
               </div>
         )
     }
-};
 
 export default VideoHero;
