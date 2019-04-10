@@ -4,12 +4,12 @@ import React from 'react';
 const VideoHero = () => {
 
         return (
-            <div style={{
+            <div  style={{
                 width: '1420px',
                 height: '500px',
                 overflow: 'hidden',
               }}>
-                <video
+                <video className='video-cover'
                   style={{
                     objectFit: 'cover',
                     width: '100%',
