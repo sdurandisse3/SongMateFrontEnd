@@ -1,5 +1,5 @@
 import React from 'react';
-import VideoHero from './components/VideoHero';
+import VideoHero from './containers/VideoHero';
 
 
 
