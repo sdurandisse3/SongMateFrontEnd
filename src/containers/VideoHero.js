@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from '../components/Header'
+import VideoHeroContent from '../components/VideoHeroContent';
 
 
 
@@ -16,6 +17,7 @@ const VideoHero = () => {
               }}>
 
               <Header/> 
+              <VideoHeroContent/>
           <video className='video-cover'
                  
                   style={{
