@@ -1,0 +1,14 @@
+.background-img {
+    height: 42px;
+    width: 42px;
+    margin: 0px;
+    }
+
+.btn{
+    height: 75%;
+    width: 75%;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    border: 3px solid green;
+}

@@ -1,15 +1,23 @@
 import React from 'react';
+import Header from '../components/Header'
+
+
 
 
 const VideoHero = () => {
 
         return (
+       
             <div  style={{
-                width: '1420px',
+                width: '1440px',
                 height: '500px',
                 overflow: 'hidden',
+                
               }}>
-                <video className='video-cover'
+
+              <Header/> 
+          <video className='video-cover'
+                 
                   style={{
                     objectFit: 'cover',
                     width: '100%',
@@ -18,7 +26,9 @@ const VideoHero = () => {
                   loop autoPlay
                   src="/assets/Cheering-Crowd.mp4"
                 />
+             
               </div>
+          
         )
     }
 

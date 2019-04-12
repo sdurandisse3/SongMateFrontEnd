@@ -10,7 +10,7 @@ Users
 - email (unique)
 - avatar
 
-Posts
+Post
 - id (unique)
 - user_id
 - image_url
