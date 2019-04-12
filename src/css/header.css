@@ -2,13 +2,22 @@
     height: 42px;
     width: 42px;
     margin: 0px;
-    }
+}
 
 .btn{
-    height: 75%;
-    width: 75%;
-    position: absolute;
+    margin: 0%;
     right: 0;
     text-align: center;
-    border: 3px solid green;
+    border: 1px solid green;  
+    padding: 10px;
+    width: 250px;
+    
 }
+
+.parent {
+    text-align: right;
+    float: right;
+    display: block;
+    margin-right: 1.64474%;
+    padding: 5px 0px;
+} 
