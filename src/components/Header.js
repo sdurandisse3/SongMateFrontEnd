@@ -19,7 +19,7 @@ class Header extends Component {
 
                 <button className='btn'>
                     <img src="/assets/Spotify_Icon_RGB_Black.png" className='background-img' alt=""></img>
-                    Connect With Spotify
+                    <p className='text-algn'>Connect With Spotify</p>
                 </button>
 
                 {/* <Button outline color="success" size="lg" style={{float: 'right'}}>Connect to Spotify</Button>{' '} */}

@@ -2,6 +2,9 @@ import React from 'react';
 import '../css/videoherocontent.css'
 import '../css/search.css'
 
+
+
+
 const VideoHeroContent = () => {
 return (
     <div className='vid-hero-content'>
